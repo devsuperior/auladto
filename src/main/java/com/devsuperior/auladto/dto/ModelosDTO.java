@@ -7,6 +7,8 @@ public class ModelosDTO {
 
 	private List<ItemDTO> modelos = new ArrayList<>();
 	
+	private List<AnoDTO> anos = new ArrayList<>();
+	
 	public ModelosDTO() {
 	}
 
@@ -16,5 +18,13 @@ public class ModelosDTO {
 
 	public void setModelos(List<ItemDTO> modelos) {
 		this.modelos = modelos;
+	}
+
+	public List<AnoDTO> getAnos() {
+		return anos;
+	}
+
+	public void setAnos(List<AnoDTO> anos) {
+		this.anos = anos;
 	}
 }
